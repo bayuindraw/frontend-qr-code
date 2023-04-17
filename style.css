@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit);
+
+body{
+    background-color:hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: 'Outfit';
+    text-align: center;
+    
+}
+
+div{
+    background-color: hsl(0, 0%, 100%);
+    margin: 13vh auto;
+    
+}
+
+h2{
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    
+}
+p{
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+.container {
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+    
+}
+
+.container img {
+    border-radius: 15px;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+      width: 80%;
+      display: block;
+      margin: 5vh auto;
+    }
+  }
+  
